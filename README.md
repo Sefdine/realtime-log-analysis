@@ -24,3 +24,12 @@ Vous trouverz dans ce dépôt, un dossier "docs" contenant tous les documents ne
 - Le plan de conformité au RGPD et à la loi 09-08
 - Le catalogue des données
 - La documentation de l'implementation du projet
+
+Un dossier "pricing" contenant un fichier excel qui montre une estimation des couts des differents services utilisés à savoir Azure Databricks, Azure Event Hub et Power BI Embeded
+
+Il y a également un dossier "images" contenant le diagram du projet montrant le flux de données.
+
+Et un dossier "app" contenant :
+- .env: fichier contenant les clés de connexion avec le service Azure Event Hub
+- data.ipynb : fichier notebook contenant la logique de génération des données et les envoi vers Azure Event Hub
+- transformations.ipynb : databricks notebook contenant la logique des transformations appliquées au données et leurs sauvegardes en temps réel dans Delta Lake en utilisant pyspark.
