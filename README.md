@@ -1,4 +1,4 @@
-# Projet de Pipeline de Données en Temps Réel
+# Projet d'Analyse de log en Temps Réel
 
 Ce projet consiste à développer un pipeline de données qui ingère, traite et analyse en temps réel les logs générés par une application web ou mobile. Utilisant Azure Event Hub pour l'ingestion de données et Apache Spark sur Azure Databricks pour le traitement et Power BI Desktop pour l'analyse et visualisation, le système permettra de surveiller la performance de l'application, de détecter les anomalies, d'analyser le comportement des utilisateurs et de renforcer la sécurité.
 
